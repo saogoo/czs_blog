@@ -1,7 +1,7 @@
 ---
 title: Python：从入门到实践 第二章
 date: 2023-03-27
-updated: 2023-03-27
+updated: 2023-03-31
 tags:
 categories:
 keywords:
@@ -178,7 +178,7 @@ print(f"{test} {_message}")
 ## 2.1.2 变量是盒子/标签（具有覆写性）
 
 ```python
-message="try jupyter"
+message="try jupyter"#你可以称呼这里的message为object
 print(message)
 message="try python3"
 print(message)
@@ -285,6 +285,22 @@ favorite_language.strip()
 ```
 
     'My favorite language is python.'
+
+## 2.2.5 分割字符串中的内容
+
+有的时候，我们会需要根据某一元素分割字符串中的制定内容，在这种情况下，我们可以使用 Split 这一方法 split()
+
+如果我们没有指定()中的内容，那么 split 会默认删除空格，并分割其前后的内容，若有指定内容，则会删除指定内容，并分割其前后内容
+
+```python
+favorite_language ="    My favorite language is python.    "
+print(favorite_language.split())
+str = '你好超级小说在线读i love you超级小说在线读'
+print(str.split('超级小说在线读'))
+```
+
+    ['My', 'favorite', 'language', 'is', 'python.']
+    ['你好', 'i love you', '']
 
 # 2.3 数 Numbers
 
