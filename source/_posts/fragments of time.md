@@ -6,9 +6,9 @@ tags:
 categories:
 keywords:
 description:
-top_img:
+top_img: /image/time_03.PNG
 comments:
-cover:
+cover: https://sgagoo.tech/image/time_cover.PNG
 toc:
 toc_number:
 toc_style_simple:
